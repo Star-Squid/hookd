@@ -1,5 +1,10 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    width: 100vw;
+}
+
+section{
+  width: 100vw !important; 
 }
 
 h1{
@@ -131,7 +136,7 @@ h3{
 }
 
 .carousel-item{
-    padding: 7% 15%;
+    padding: 7%;
 }
 
 /* price */
@@ -178,26 +183,6 @@ color: #ffffff;
     color: #FFD09B;
 }
 
-@media (max-width: 770px) {
-    .title-img{
-        position: relative;
-        width: 100vw;
-        top: -30px;
-        right: 0;
-        margin: auto;
-        overflow: hidden;
-    }
-    #title{
-        text-align: center;
-    }
-    .show-img {
-       transform: scale(0.7);
-    }
-    #roses{
-    height: 280px;
-    }
-}
-
 #roses{
     height: 320px;
 }
@@ -238,4 +223,25 @@ color: #ffffff;
 #footer .btn-outline-dark:hover {
     color: #ffffff;
     background-color: #1A2B6A;
+}
+
+@media (max-width: 770px) {
+    .title-img{
+        position: relative;
+        width: 100vw;
+        top: -30px;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+    }
+    #title{
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .show-img {
+       transform: scale(0.7);
+    }
+    #roses{
+    height: 280px;
+    }
 }
