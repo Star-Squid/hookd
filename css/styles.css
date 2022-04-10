@@ -180,12 +180,21 @@ color: #ffffff;
 
 @media (max-width: 770px) {
     .title-img{
-        position: static;
-        transform: scale(90%);
+        position: relative;
+        width: 100vw;
+        top: -30px;
+        right: 0;
         margin: auto;
+        overflow: hidden;
     }
     #title{
         text-align: center;
+    }
+    .show-img {
+       transform: scale(0.7);
+    }
+    #roses{
+    height: 280px;
     }
 }
 
@@ -196,7 +205,6 @@ color: #ffffff;
 .corner-ribbon{
     width: 400px;
     position: fixed;
-
     top: 50px;
     right: -100px;
     left: auto;
@@ -205,17 +213,11 @@ color: #ffffff;
     -webkit-transform: rotate(45deg);
     background: #FFD09B;
     color: #1A2B6A;
-
-
-
-
     box-shadow: 0 0 3px rgba(0,0,0,.3);
     text-align: center;
-
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.1rem;
     font-weight: 900;
-
     padding: 10px;
 }
 
