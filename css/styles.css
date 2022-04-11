@@ -136,7 +136,7 @@ h3{
 }
 
 .carousel-item{
-    padding: 7%;
+    padding: 0;
 }
 
 /* price */
@@ -167,7 +167,7 @@ color: #ffffff;
 /* footer */
 
 #footer{
-    padding: 7% 7% 3% 7%;
+    padding: 7% 7% 14% 7%;
     text-align: center;
     color: #1A2B6A;
     background-color: #ffffff;
