@@ -4,7 +4,7 @@ body{
 }
 
 section{
-  width: 100vw !important; 
+  width: 100vw !important;
 }
 
 h1{
@@ -192,7 +192,6 @@ color: #ffffff;
     position: fixed;
     top: 50px;
     right: -100px;
-    left: auto;
     z-index: 5;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -244,4 +243,15 @@ color: #ffffff;
     #roses{
     height: 280px;
     }
+    .corner-ribbon{
+    width: 400px;
+    top:auto;
+    right:auto;
+    position: fixed;
+    bottom: 50px;
+    left: -100px;
+    z-index: 5;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 }
